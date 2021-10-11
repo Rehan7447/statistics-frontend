@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Digi_Developers/fiverr">
+    <title>Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link href="css/mainStyle.css" rel="stylesheet">
+
+   
+  
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav id="bg-light" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+               <button onclick="myfun()"> <i id="i"class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+                <img src="https://demo.sitsbook.info/76/trade/resource/images/sitsbook-logo/logo.png" alt="">
+                
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex">
+                    <a class="notification-icons" href="#">
+                        <i class="fa fa-user fa-lg"></i> </a>
+                        <span>User Name</span>
+                        <a class="notification-icons" href="#">
+                            <i class="fa fa-sign-out fa-lg"></i> </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <aside id="aside">
+        <div class="content">
+            <div class="icon">
+                <i class="fa fa-dashboard fa"></i>  
+            </div>
+            <a href="Dashboard.html"><span>Dashboard</span></a>
+        </div>
+       
+       
+        
+    </aside>
+
+    <div class="nav-header">
+        <div class="tab-header">
+            <div class="left"><p>Purchased Details</p></div>
+            <div class="right">
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                   <li class="nav-item" role="presentation">
+                     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">List</button>
+                   </li>
+                   <li class="nav-item" role="presentation">
+                     <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Search</button>
+                   </li>
+                   <li class="nav-item" role="presentation">
+                     <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Details</button>
+                   </li>
+                 </ul>
+            </div>
+        </div>
+        <div class="tab-content" id="myTabContent">
+           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+               
+               
+               
+           </div>
+           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+           <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            
+            <div class="pull-right" style="margin-right:25px;padding:5px;">
+                <div class="pull-left" style="margin-right:25px;">Discount Type : 
+                <input style="margin-right:15px;" type="radio" name="gender" id="male">
+                <label  style="margin-right:15px;" for="male" class="label">Percentage</label>
+                <input  style="margin-right:15px;" type="radio" name="gender" id="female">
+                <label for="female" class="label">Amount</label>
+                </div>
+                
+            </div>
+            <div class="bodytab1">
+                <div id="form">
+          
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="caption" style="width:50px;">Date</div>
+                      <div class="field_1">
+                        <form>
+                          <input class="form-control datepicker hasDatepicker" type="date" name="jvDate" id="dp1626329461968" autocomplete="off">
+                        </form>
+                      </div>
+          
+                      <div class="caption" style="width: 50px;">Bill#</div>
+                      <div class="field_1" style="width:100px;">
+                        <input class="form-control" name="jvNum" type="text" value="8" style="width:100px;text-align:center;" readonly="" tabindex="-1" autocomplete="off">
+                      </div>
+          
+          
+                      <div class="caption" style="width:50px;">VBill#:</div>
+                      <div class="field_1" style="width:100px;">
+                        <input class="form-control" type="text" name="pon" style="text-align:center;" autocomplete="off">
+                      </div>
+                    </div>
+                    <div class="col-6"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="caption" style="width:50px;">Account:</div>
+                      <div class="field_1" style="width:250px;">
+                        <select id="options" name="options" style="width: 100%; height: 40px; border-radius: 4px; background-color: #F8F8F8; padding: 0 15px; font-size: 16px;">
+                            <option selected="" value="">MMC COSMETICS</option>
+                            <option data-subtext="0401010006" value="0401010006">
+                                amir farooq											</option>
+                                                                        <option data-subtext="0401010011" value="0401010011">
+                                ICI PAKISTAN											</option>
+                                                                        <option data-subtext="0401010009" value="0401010009">
+                                mehran cycle											</option>
+                                                                        <option data-subtext="0401010005" value="0401010005">
+                                MMC COSMETICS											</option>
+                                                                        <option data-subtext="0401010008" value="0401010008">
+                                Naseer ara machine 											</option>
+                                                                        <option data-subtext="0401010010" value="0401010010">
+                                payable											</option>
+                                                                        <option data-subtext="0401010007" value="0401010007">
+                                shahid											</option>
+                                                                        <option data-subtext="0401010002" value="0401010002">
+                                SUP FOUR											</option>
+                                                                        <option data-subtext="0401010003" value="0401010003">
+                                SUP ONE											</option>
+                                                                        <option data-subtext="0401010001" value="0401010001">
+                                SUP THREE											</option>
+                                                                        <option data-subtext="0401010004" value="0401010004">
+                                SUP TWO											</option>
+                                                                                                            <option disabled data-subtext="010101001" value="010101001">
+                                Cash In Hand A/c Kashif Zaman											</option>
+                                                                        <option disabled data-subtext="0101010002" value="0101010002">
+                                Cash In Hand A/c amir farooq											</option>
+                           
+                          
+                          
+                           </select>
+                      </div>
+                      <button type="button" class="btn btn-light" style=" width: 45px; margin-top: 6px; font-weight: 900; margin-left: 8px; color: blue; border: 1px solid grey;">+</button>
+                      <input style=" margin-top: 20px; margin-left: 0px;float: right;" type="checkbox" id="flexCheckDefault">
+                    </div>
+                    <div class="col-7" style="padding-left: 0;">
+                      <label class="caption" style="    margin-left: 0;" for="flexCheckDefault">Cash</label>
+                    </div>
+                  </div>
+          
+          
+                  <table class="tableStyle  " cellspacing="0" style="width:100%;">
+          
+                    <thead style="text-align: center;">
+                      <tr style="text-align: center;">
+                        <th class="gray-color " style="vertical-align:middle;" colspan="3">ITEM
+                          <a href="#" onclick="refresh_accounts();" class="btn btn-default btn-xs"><i class="fas fa-sync-alt" style="color:#06C;margin:0px;padding:0px;"></i></a>
+                          <a href="accounts-management.php" target="_blank" class="btn btn-default btn-xs"><i class="fa fa-plus" style="color:#06C;margin:0px;padding:0px;"></i></a>
+                        </th>
+                        <th class="gray-color" colspan="1">QTY</th>
+                        <th class="gray-color" colspan="1">RATE</th>
+                        <th class="gray-color" colspan="3">DISC%<input type="text" style="text-align:center; width: 40px; height: 20px;" autocomplete="off"></th>
+                        <th class="gray-color" colspan="1">AMOUNT()</th>
+                        <th class="gray-color" colspan="1">STOCK</th>
+                        <th class="gray-color" colspan="2">ACTION</th>
+                      </tr>
+                    </thead>
+          
+                    <tbody style="text-align: center;">
+                      <tr style="text-align: center;">
+                        <td class="col-md-3 border-right" colspan="3">
+                            <select id="options" name="options" style="width: 100%; height: 40px; border-radius: 4px; background-color: #F8F8F8; padding: 0 15px; font-size: 16px;">
+    
+                                <option selected>Nothing Selected</option>
+                                <option value="0101020004" data-subtext="0101020004"> AL FALAH</option>
+                                <option value="0301060003" data-subtext="0301060003">50000</option>
+                                <option value="0101040009" data-subtext="0101040009">aatir</option>
+                                <option value="0101040015" data-subtext="0101040015">afzil ironl </option>
+                                <option value="0101040014" data-subtext="0101040014">almadina iron</option>
+                                <option value="0401010006" data-subtext="0401010006">amir farooq</option>
+                                <option value="0101040011" data-subtext="0101040011">amjad autos</option>
+                                <option value="0401040005" data-subtext="0401040005">asad</option>
+                                <option value="0301010004" data-subtext="0301010004">Bad Debts Exp</option>
+                                <option value="0401050004" data-subtext="0401050004">Bad Debts Lib</option>
+                                <option value="0401020002" data-subtext="0401020002">Broker One</option>
+                               
+                                <option value="0101010003" data-subtext="0101010003">cash in hand</option>
+                                <option value="010101001" data-subtext="010101001">Cash in Hand A/c Admin</option>
+                                <option value="0101010002" data-subtext="0101010002">Cash In Hand A/c amir farooq</option>
+                                <option value="030101002" data-subtext="030101002">Commission Sale Exp</option>
+                                <option value="030104001" data-subtext="030104001">Cost of Sales A/c</option>
+                                <option value="030104002" data-subtext="030104002">Cost of Sales A/c Poultry</option>
+                                <option value="0101040003" data-subtext="0101040003">CUSTOMER FOUR</option>
+                                <option value="0101040005" data-subtext="0101040005">CUSTOMER ONE</option>
+                                <option value="0101040001" data-subtext="0101040001">CUSTOMER TWO</option>
+                                <option value="0101040008" data-subtext="0101040008">CUTOMER THREE</option>
+                                <option value="0401040006" data-subtext="0401040006">danish</option>
+                                <option value="0101020002" data-subtext="0101020002">EASY PESA</option>
+                                <option value="0401040001" data-subtext="0401040001">Emp One</option>
+                                <option value="0401040002" data-subtext="0401040002">EMPLOYEE 2</option>
+                                <option value="0301050002" data-subtext="0301050002">employee expense</option>
+                                <option value="0301050003" data-subtext="0301050003">employee expense</option>
+                                <option value="030105001" data-subtext="030105001">Employees Salary Exp</option>
+                                <option value="030102002" data-subtext="030102002">Entertanment</option>
+                                <option value="0401020001" data-subtext="0401020001">Exp Payable</option>
+                                <option value="0301030002" data-subtext="0301030002">expenses</option>
+                                <option value="0401040003" data-subtext="0401040003">GHAFOOR</option>
+                                <option value="040105001" data-subtext="040105001">GST Payable</option>
+                                <option value="0101020003" data-subtext="0101020003">HBL</option>
+                                <option value="0101040013" data-subtext="0101040013">hello</option>
+                                <option value="0401010011" data-subtext="0401010011">ICI PAKISTAN</option>
+                                <option value="020102001" data-subtext="020102001">Income A/c other Revenue</option>
+                                <option value="020101001" data-subtext="020101001">Income A/c Sales</option>
+                                <option value="020101004" data-subtext="020101004">Income A/c Sales Poultry</option>
+                                <option value="020201001" data-subtext="020201001">Income A/c Services</option>
+                                <option value="010106001" data-subtext="010106001">Inventory</option>
+                                <option value="010106003" data-subtext="010106003">Inventory on rent A/c</option>
+                                <option value="0101030001" data-subtext="0101030001">investments</option>
+                                <option value="0101020001" data-subtext="0101020001">JAZZ CASH</option>
+                                <option value="0301030003" data-subtext="0301030003">liabilities's factory</option>
+                                <option value="0301020007" data-subtext="0301020007">Meal</option>
+                                <option value="0401010009" data-subtext="0401010009">mehran cycle</option>
+                                <option value="0401010005" data-subtext="0401010005">MMC COSMETICS</option>
+                                <option value="0401010008" data-subtext="0401010008">Naseer ara machine </option>
+                                <option value="0301030001" data-subtext="0301030001">other expense</option>
+                                <option value="0401050003" data-subtext="0401050003">Other Tax</option>
+                                <option value="050101001" data-subtext="050101001">Owner Equity</option>
+                                <option value="010111002" data-subtext="010111002">Parking a/c rent receivable</option>
+                                <option value="0401010010" data-subtext="0401010010">payable</option>
+                                <option value="0101040012" data-subtext="0101040012">pcc bahria</option>
+                                <option value="030102006" data-subtext="030102006">Petrol</option>
+                                <option value="0301040003" data-subtext="0301040003">production cost</option>
+                                <option value="050102001" data-subtext="050102001">Profit &amp; Loss A/c</option>
+                                <option value="0301060002" data-subtext="0301060002">purchase</option>
+                                <option value="020101002" data-subtext="020101002">Purchase Discount</option>
+                                <option value="030106001" data-subtext="030106001">Purchase Freight</option>
+                                <option value="010106002" data-subtext="010106002">Purchase Returns</option>
+                                <option value="0401040007" data-subtext="0401040007">Ramzan</option>
+                                <option value="010111001" data-subtext="010111001">Rent Receivable A/c</option>
+                                <option value="0201010005" data-subtext="0201010005">sale voucher</option>
+                                <option value="030101001" data-subtext="030101001">Sales Discount</option>
+                                <option value="020101003" data-subtext="020101003">Sales Return A/c</option>
+                                <option value="010108001" data-subtext="010108001">Sales Tax Receivable</option>
+                                <option value="0401010007" data-subtext="0401010007">shahid</option>
+                                <option value="0401010002" data-subtext="0401010002">SUP FOUR</option>
+                                <option value="0401010003" data-subtext="0401010003">SUP ONE</option>
+                                <option value="0401010001" data-subtext="0401010001">SUP THREE</option>
+                                <option value="0401010004" data-subtext="0401010004">SUP TWO</option>
+                                <option value="0101040010" data-subtext="0101040010">tamoor</option>
+                                <option value="030102003" data-subtext="030102003">Travelling</option>
+                                <option value="030102001" data-subtext="030102001">Utility Bills</option>
+                                <option value="010105001" data-subtext="010105001">Walking Customers Receivable</option>
+                                <option value="010112001" data-subtext="010112001">WIP Account</option>
+                                <option value="010108002" data-subtext="010108002">With Holding Tax</option>
+                                <option value="0401050002" data-subtext="0401050002">Zaqat Allah ho Payable</option>
+                                <option value="0301010003" data-subtext="0301010003">Zaqat Expenses</option>
+                                <option value="0401040004" data-subtext="0401040004">ZUBAIR</option>
+                                <option value="0101090001" data-subtext="0101090001">ZUBAIR ADV</option></select>
+                        </td>
+          
+                        <td class="col-md-1 border-right"><input type="text" class="myinput"></td>
+                        <td class="col-md-1 border-right"><input type="text" class="myinput"></td>
+                        <td class="col-md-3 border-right" colspan="3"><input type="text" class="myinput"></td>
+          
+                        <td class="col-md-1 border-right color-light">0</td>
+                        <td class="col-md-1 border-right color-light">0</td>
+          
+                        <td class="col-md-2 border-right" colspan="2"><button class="mybtn">Enter</button></td>
+                      </tr>
+                    </tbody>
+          
+          
+                    <tbody style="text-align: center;">
+                      <tr style="text-align: center;">
+                        <td class="col-md-3 border-right" colspan="3">
+                          <div style="font-size: 14px;color: #333333;line-height: 36px;">Total:</div>
+                        </td>
+          
+          
+                        <td class="col-md-1 border-right color-light" colspan="1"></td>
+          
+                        <td class="col-md-1 border-right" colspan="1">
+                          <div style="font-size: 14px;color: #333333;line-height: 36px;">---</div>
+                        </td>
+          
+                        <td class="col-md-3 border-right color-light" colspan="3"></td>
+          
+                        <td class="col-md-1 border-right color-light" colspan="1">0</td>
+          
+                        <td class="col-md-1 border-right color-light" colspan="1">
+                          <div style="font-size: 14px;color: #333333;line-height: 36px;">---</div>
+                        </td>
+          
+                        <td class="col-md-2 border-right" colspan="2">
+                          <div style="font-size: 14px;color: #333333;line-height: 36px;">---</div>
+                        </td>
+                      </tr>
+          
+                    </tbody>
+          
+                  
+                  </table>
+          
+                  <div class="row" style="margin-top: 20px;">
+                    <div class="col-4">
+                      <table class="tableStyle  " cellspacing="0" style="width:100%;">
+                        <thead style="text-align: center;">
+                          <tr style="text-align: center;">
+                            <th class="gray-color" style="text-align: left;padding: 10px 12px 10px 17px !important;color: gray !important; text-transform: none !important;" colspan="3">Notes:</th>
+                          </tr>
+                        </thead>
+          
+                        <tbody style="text-align: center;">
+                          <tr style="text-align: center;">
+                            <td>
+                              <textarea id="w3review" name="w3review" rows="5" cols="56" placeholder="text here"></textarea>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col">
+                      <div style="float: right;padding-right: 40px;">
+                        <div class="caption" style="width: 60px;">Net Total</div>
+                        <div class="field_1" style="width:100px;">
+                          <input class="form-control" name="jvNum" type="text" style="width:100px;text-align:center;" readonly="" tabindex="-1" autocomplete="off">
+                        </div>
+                      </div>
+                    </div>
+          
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+
+
+            <div class="btn-group" style="padding:10px;margin:10px;">
+
+                <input type="button" class="button2 pull-right mr-10" onclick="window.location.href = 'create-voucher.php';" value="New Form">
+                <button class="button1 pull-right save_voucher">Save</button>
+
+           </div>
+         </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+      let y=0
+      function myfun(){
+          var x=document.getElementById("aside");
+          var g=document.getElementById("i")
+          if(y==0){
+              y=1
+              x.style.transform="translateX(0%)";
+              g.classList.remove("fa-bars")
+              g.classList.add("fa-times")
+          }else if(y==1){
+              y=0
+              x.style.transform="translateX(-100%)";
+              g.classList.add("fa-bars")
+              g.classList.remove("fa-times")
+          } 
+      }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+</body>
+</html>
